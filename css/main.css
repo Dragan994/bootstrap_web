@@ -20,6 +20,13 @@ hr {
 
 #menu-list-ul {
   margin: 0; }
+  #menu-list-ul>li>a {
+    font-weight: 500;
+    color: #111111;
+  }
+  #menu-list-ul>li>a:hover {
+    color: #555;
+  }
 
 .menu-list-onClick {
   display: none;
@@ -75,8 +82,11 @@ figure p {
   background-color: #111111; }
 
 @media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.1rem;
+  }
   #hero-title {
-    font-size: 1rem;
+    font-size: 0.75rem;
     transform: translateY(-50%); } }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
