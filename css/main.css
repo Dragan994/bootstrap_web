@@ -83,10 +83,11 @@ figure p {
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 1.1rem;
+    margin-top: 20px;
+    font-size: 1.2rem;
   }
   #hero-title {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     transform: translateY(-50%); } }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
